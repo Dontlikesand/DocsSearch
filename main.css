@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fade-in;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.search{
+    background-color: rgb(223, 255, 219);
+}
+#html{
+    color: rgb(130, 130, 255);
+}
+.search::before{
+    background-color: rgb(223, 255, 219);
+}
+.search:hover{
+    background-color: rgb(52, 255, 25);
+}
+
+@keyframes fade-in{
+ 0%{color: rgba(0, 0, 0, 0);}
+ 100%{color: rgb(0, 0, 0);}
+}
